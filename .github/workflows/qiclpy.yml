@@ -1,4 +1,6 @@
 name: Lint Markdown and Python
+permissions:
+  contents: read
 
 on:
   push:
@@ -61,7 +63,8 @@ jobs:
 
           echo "🚀 Running nbqa pylint on notebooks..."
           if [ -n "$NB_FILES" ]; then
-             uv run nbqa pylint --disable=R0801 --exit-zero $(git ls-files '*.py' | xargs) 
+             uv run nbqa pylint --disable=R0801 --exit-zero .
+             #uv run nbqa pylint --disable=R0801 --exit-zero $(git ls-files '*.py' | xargs) 
           else
             echo "No notebooks found."
           fi
