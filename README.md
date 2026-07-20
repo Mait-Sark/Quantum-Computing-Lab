@@ -1,7 +1,7 @@
 # Quantum-Computing-Lab
 M.Sc and M.Tech hands-on QC Lab IIT Jodhpur.
 
-# About us 
+# About Teachers 
 [`Maitreyee Sarkar`](https://sites.google.com/iitj.ac.in/maitreyee-sarkar-m-sa/home)
 [`Vivek Balasaheb Sabale`](https://viveksabale1998.github.io)
 
